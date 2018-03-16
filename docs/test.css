@@ -1,0 +1,52 @@
+/*webkit-sassui-triangle Start*/
+.webkit-sassui-triangle {
+  display: inline-block;
+}
+
+.webkit-sassui-triangle[data-direction=top] {
+  height: 0;
+  width: 0;
+  border-bottom: 1em solid;
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+}
+
+.webkit-sassui-triangle[data-direction=right] {
+  height: 0;
+  width: 0;
+  border-left: 1em solid;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid transparent;
+}
+
+.webkit-sassui-triangle[data-direction=bottom] {
+  height: 0;
+  width: 0;
+  border-top: 1em solid;
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+}
+
+.webkit-sassui-triangle[data-direction=left] {
+  height: 0;
+  width: 0;
+  border-right: 1em solid;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid transparent;
+}
+
+/*webkit-sassui-triangle End*/
+.test-webkit-sassui-triangle {
+  border: 1px solid red;
+}
+
+center {
+  border: 1px dashed dodgerblue;
+  background: #ececec;
+  padding: 14px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-bottom: 20px;
+}

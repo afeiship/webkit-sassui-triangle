@@ -1,0 +1,15 @@
+@import "../dist/webkit-sassui-triangle.scss";
+.test-webkit-sassui-triangle{
+  border:1px solid red;
+}
+
+center{
+  border: 1px dashed dodgerblue;
+  background: #ececec;
+  padding:14px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-bottom: 20px;
+}
