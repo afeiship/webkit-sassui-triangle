@@ -1,5 +1,5 @@
 /*webkit-sassui-triangle Start*/
-@mixin triangle($width, $height, $direction: bottom) {
+@mixin triangle-without-color($width, $height, $direction: bottom) {
   $map-direction: (
       top: bottom left right,
       bottom: top left right,
@@ -24,7 +24,7 @@ $direction-map:(top,right,bottom,left);
   display: inline-block;
   @each $value in $direction-map{
     &[data-direction=#{$value}]{
-      @include triangle(0.5em,1em, $value);
+      @include triangle-without-color(1em,0.5em, $value);
     }
   }
 }

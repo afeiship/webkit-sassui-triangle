@@ -1,6 +1,21 @@
 @import "../dist/webkit-sassui-triangle.scss";
 .test-webkit-sassui-triangle{
-  border:1px solid red;
+  width: 90%;
+  margin:0 auto;
+  h3{
+    font-size: 16px;
+    border-left: 4px solid #ccc;
+    padding-left: 14px;
+  }
+
+  >p{
+    font-weight: normal;
+    margin-top: 10px;
+    padding-left: 14px;
+    font-size: 12px;
+    color:#999;
+    margin-bottom: 20px;
+  }
 }
 
 center{
