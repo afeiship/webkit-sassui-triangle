@@ -24,7 +24,7 @@ $direction-map:(top,right,bottom,left);
   display: inline-block;
   @each $value in $direction-map{
     &[data-direction=#{$value}]{
-      @include triangle(1em,1em, $value);
+      @include triangle(0.5em,1em, $value);
     }
   }
 }
